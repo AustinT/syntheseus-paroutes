@@ -1,6 +1,6 @@
 import pytest
 
-from syntheseus_paroutes.inventory import PaRoutesInventory
+from syntheseus_paroutes import PaRoutesInventory
 
 
 @pytest.mark.parametrize("n", [1, 5])

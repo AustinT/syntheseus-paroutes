@@ -1,6 +1,6 @@
 import pytest
 
-from syntheseus_paroutes.targets import get_target_smiles_list
+from syntheseus_paroutes import get_target_smiles_list
 
 
 @pytest.mark.parametrize("n", [1, 5])

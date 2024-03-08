@@ -2,7 +2,7 @@ from syntheseus.interface.bag import Bag
 from syntheseus.interface.molecule import Molecule
 from syntheseus.interface.reaction import SingleProductReaction
 
-from syntheseus_paroutes.model import PaRoutesModel
+from syntheseus_paroutes import PaRoutesModel
 
 
 def test_model():
